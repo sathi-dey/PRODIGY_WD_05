@@ -1,4 +1,4 @@
-# PRODIGY_WD_04 – Weather Web Application
+# PRODIGY_WD_05 – Weather Web Application
 
 This project is part of my **Web Development Internship at Prodigy InfoTech**.  
 It is a responsive **Weather Web Application** built using **HTML, CSS, and JavaScript** with API integration for real-time weather updates.
