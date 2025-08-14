@@ -25,7 +25,7 @@ It is a responsive **Weather Web Application** built using **HTML, CSS, and Java
 4. City suggestions appear as you type, making searches faster.
 
 ## 🔗 Live Demo
-[View Live Project](https://yourusername.github.io/PRODIGY_WD_04/)
+[View Live Project](https://sathi-dey.github.io/PRODIGY_WD_05/)
 
 ---
 
