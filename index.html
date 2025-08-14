@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+         <div id="weather-animation"></div>
+<div class="weather-card">
+  <!-- your existing weather card content -->
+</div>
+    <div class="container">
+        <header>
+            <h1 class="title">Weather Forecast</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Enter city name..." autocomplete="off" />
+                <button id="search-btn">Get Weather</button>
+                <button id="location-btn">Use My Location</button>
+            </div>
+            <div class="unit-toggle">
+                <button id="celsius-btn" class="active">°C</button>
+                <button id="fahrenheit-btn">°F</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div id="weather-info"></div>
+            <div class="right-panel">
+                <div class="forecast-container">
+                    <h3 class="forecast-title">5-Day Forecast</h3>
+                    <div id="forecast-info" class="forecast-items"></div>
+                </div>
+                <div id="map-container">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
